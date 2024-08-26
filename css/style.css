@@ -79,7 +79,9 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #d1e3ff;
+  background: linear-gradient(to right, #e1bee7, #fff9c4);
+
+
 }
 
 .header_section .container-fluid {
@@ -503,8 +505,8 @@ a:focus {
 }
 
 .service_section .box .img-box {
-  width: 65px;
-  height: 65px;
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
