@@ -40,3 +40,13 @@ function myMap() {
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
+
+
+
+        AOS.init(
+            {
+                offset: 50,
+                duration: 1000,
+            });
+
+    
